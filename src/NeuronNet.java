@@ -65,6 +65,7 @@ public class NeuronNet {
         this.result = result;
     }
 
+    // TODO
     public void learn(double[][] data, double[] trues) {
         final double learn_rate = 0.1;
         final int epochs = 1000;
